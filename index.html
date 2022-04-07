@@ -21,10 +21,18 @@
             <div class="numbers">
             </div>
             <div class="controls">
+
                 <button class="button" id="generate">
                     <img src="img/shuffle.png" alt="">
                     Generar
                 </button>
+                <select id="methods" name="methods" class="button">
+                    <option value="0">Seleccione un metodo</option>
+                    <option value="1">Bubble Sort </option>
+                    <option value="2">Selection Sort </option>
+                    <option value="3">Insertion Sort </option>
+                    <option value="4">Quick Sort</option>
+                </select>
                 <button class="button" id="sort">
                     <img src="img/sort.png" alt="">
                     Ordenar
@@ -32,6 +40,7 @@
             </div>
         </div>
     </main>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script src="scripts/app.js"></script>
 </body>
